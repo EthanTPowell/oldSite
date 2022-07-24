@@ -1,0 +1,14 @@
+body{
+    /* background-image: url(images/testwood.webp);
+    background-repeat: repeat; */
+
+}
+div.nav{
+    display: inline-grid;
+    grid-template-rows: 6;
+    grid-template-columns: 1;
+    border: 1 solid black;
+}
+div.comic{
+    border: 3px solid black;
+}
