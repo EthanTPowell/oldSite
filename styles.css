@@ -1,14 +1,61 @@
 body{
-    /* background-image: url(images/testwood.webp);
-    background-repeat: repeat; */
+    background-color: #ebd5b3;
+    /* margin: 0; */
+     display: grid; 
+     grid-template-columns: 1fr 45% 45%;
+     grid-template-rows: repeat(10% 1fr 1fr);
 
 }
+div.header {
+    /* position: absolute; */
+    /* top: 0;
+    width: 100%; */
+    /* padding-left: 120px; */
+    grid-column: 2 / 4;
+    background-color: #EBD5B3;
+    display: flex;
+    justify-content: center;
+}
 div.nav{
+    grid-row: 2 / 5;
+    background-color: burlywood;
+    /* position: relative; */
     display: inline-grid;
+    height: 100vh;
+    /* width: 10%; */
     grid-template-rows: 6;
     grid-template-columns: 1;
-    border: 1 solid black;
+    border: 1px solid brown;
+    /* top: 0; */
+    
 }
-div.comic{
-    border: 3px solid black;
+
+.text{
+    grid-column: 2 / 4;
+    text-align: center;
 }
+
+div.nav>div{
+    border: 1px solid black;
+    /* text-decoration-color: white; */
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+div.text{
+    grid-column: 2 / 4;
+
+}
+
+div.footer{
+    grid-column: 1 / 4;
+    align-items: end;
+    display: flex;
+    justify-content: center;
+}
+
