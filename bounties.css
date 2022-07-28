@@ -1,49 +1,57 @@
-.bountyBoard{
-   display: grid; 
+.bountyBoard {
+  display: grid;
 }
-div.mugiwara{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 25px;
-    
+div.mugiwara {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 25px;
 }
-img{
-    height: 150px;
-    width: 100px;
+img {
+  height: 150px;
+  width: 100px;
 }
-div.yonko{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
+div.yonko {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
 }
-div.worst{
-    display: flex;
-    justify-content: space-evenly;
+div.worst {
+  display: flex;
+  justify-content: space-evenly;
 }
-div.desc{
-    /* display: flex; */
-    /* justify-content: center; */
-    text-align: center;
+div.desc {
+  /* display: flex; */
+  /* justify-content: center; */
+  text-align: center;
 }
-body{
-    background-color: #Ebd5B3;
+body {
+  background-color: #ebd5b3;
 }
-div.nav{
-    display: flex;
+div.nav {
+  display: flex;
 }
-div.tip{
-    text-align: center;
+div.tip {
+  text-align: center;
 }
-div.nav{
-    display: flex;
-    justify-content: space-evenly;
-    background-color: burlywood;
+div.nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: burlywood;
 }
-*{
-    color: brown;
+* {
+  color: brown;
 }
-.footer{
-display: flex;
-justify-content: center;
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+div.profWall {
+  display: flex;
+  justify-content: space-between;
+}
+.prof {
+  width: 200px;
+  height: 283px;
 }
