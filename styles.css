@@ -1,3 +1,6 @@
+*{
+    color: brown;
+}
 body{
     background-color: #ebd5b3;
     /* margin: 0; */
@@ -10,9 +13,9 @@ div.header {
     /* position: absolute; */
     /* top: 0;
     width: 100%; */
-    /* padding-left: 120px; */
-    grid-column: 2 / 4;
-    background-color: #EBD5B3;
+    padding-left: 117.31px;
+    grid-column: 1 / 4;
+    background-color: #a9957b;
     display: flex;
     justify-content: center;
 }
@@ -21,12 +24,10 @@ div.nav{
     background-color: burlywood;
     /* position: relative; */
     display: inline-grid;
-    height: 100vh;
-    /* width: 10%; */
+    height: 80vh;
     grid-template-rows: 6;
     grid-template-columns: 1;
     border: 1px solid brown;
-    /* top: 0; */
     
 }
 
@@ -36,10 +37,12 @@ div.nav{
 }
 
 div.nav>div{
-    border: 1px solid black;
+    padding: 1px;
+    display: flex;
+    border: 1px solid brown;
     /* text-decoration-color: white; */
-    justify-content: center;
-    align-items: center;
+   justify-content: center;
+   align-items: center;
 }
 
 h1{
@@ -53,9 +56,15 @@ div.text{
 }
 
 div.footer{
-    grid-column: 1 / 4;
-    align-items: end;
+    grid-column: 2 / 4;
+    grid-row: 5;
     display: flex;
     justify-content: center;
+    align-items: end;
+    /* background-color: #a9957b; */
 }
 
+#bell{
+    width: 50%;
+    height: auto;
+}

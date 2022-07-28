@@ -40,3 +40,10 @@ div.nav{
     justify-content: space-evenly;
     background-color: burlywood;
 }
+*{
+    color: brown;
+}
+.footer{
+display: flex;
+justify-content: center;
+}
